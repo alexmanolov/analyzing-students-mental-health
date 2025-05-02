@@ -1,3 +1,28 @@
+# Ignore all data files...
+/data/*
+
+# ...except the main dataset
+!/data/students.csv
+
+# Jupyter-specific temp files
+.ipynb_checkpoints/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and backups
+*.log
+*.bak
+*.tmp
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# VSCode settings (if used)
+.vscode/
+
 # Ignore typical files
 .DS_Store
 __pycache__/
