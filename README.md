@@ -43,6 +43,15 @@ Summary of Findings
 These results reinforce the original study's conclusions, illustrating the complex interplay between environment, culture, and mental health.
 
 
+Methodology
+
+The core analysis used a SQL query on the anonymised student dataset, filtering only international students (`inter_dom = 'Inter'`), grouping by their length of stay (`stay`), and calculating:
+    - Number of students per group
+    - Average scores for depression (PHQ-9), social connectedness (SCS), and acculturative stress (ASISS)
+
+These results were used to assess whether time spent in the host country was associated with mental health improvements.
+
+
 Skills Demonstrated
     - Writing advanced SQL queries using filtering, CASE, aggregation, and JOINs
     - Conducting exploratory analysis with real-world social science data
